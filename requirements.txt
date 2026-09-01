@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+yfinance>=0.2
+
+# charting — needed by research/05, 06, 08
+plotly>=5.0
+
+# only used by research/05-09 for ta.sma(); 10, 11 and live/ use pandas rolling
+pandas-ta-classic
